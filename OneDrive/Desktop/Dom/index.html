@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Management Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-content">
+            <div class="brand">STUDENT<span>HUB</span></div>
+            <div class="header-label">STUDENT MANAGEMENT SYSTEM</div>
+        </div>
+
+        <div class="hero">
+            <p class="eyebrow">DASHBOARD / OVERVIEW</p>
+            <h1 id="pageTitle">Student Dashboard</h1>
+            <p class="subtitle">
+                Manage student profiles, skills, and learning progress.
+            </p>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="summary">
+            <div class="summary-icon">S</div>
+
+            <div class="summary-info">
+                <p class="summary-label">TOTAL STUDENTS</p>
+                <h2 id="studentCount">0</h2>
+                <p class="summary-description">
+                    Student profiles currently displayed
+                </p>
+            </div>
+
+            <div class="summary-badge">Live Overview</div>
+        </section>
+
+        <section class="section-heading">
+            <div>
+                <p class="eyebrow">STUDENT DIRECTORY</p>
+                <h2>Our Students</h2>
+                <p class="section-description">
+                    Explore student courses, skills, and current status.
+                </p>
+            </div>
+        </section>
+
+        <section id="profileContainer" class="profiles">
+            <!-- JavaScript creates student cards here -->
+        </section>
+
+        <section class="notice">
+            <div class="notice-icon">i</div>
+            <div>
+                <h3 id="noticeTitle">Welcome to StudentHub</h3>
+                <p id="noticeText">
+                    Your student information is being prepared.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 StudentHub. Built with HTML, CSS and JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
